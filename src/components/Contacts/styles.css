@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+
+#container {
+  width: 400px;
+  background-color: #5B1865;
+  padding: 20px;
+}
+
+input {
+  padding: 5px;
+  width: 100%;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.list{
+  margin: 15px 0;
+}
+
+.list > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2C5784;
+  color: white;
+  padding: 5px;
+  margin-bottom: 2px;
+}
+
+h1 {
+  color: #5688C7;
+}
+
+button {
+  background-color: #E0E1DD;
+}
